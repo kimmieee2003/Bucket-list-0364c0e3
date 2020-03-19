@@ -11,7 +11,7 @@ if(is_numeric($activiteiten)) {
 echo 'In uw bucketlist staat:' ."\n";
     for($c = 0; $c <= $activiteiten; $c++) {
 echo '$bucket[$c]'."\n";
-  }
+    }
 }else{
     echo "dit is geen getal.";
 }
